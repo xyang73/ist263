@@ -1,0 +1,10 @@
+body {
+    background-color: darkgrey;
+}
+p {color: lightpink;}
+
+.boldred {
+    color: red;
+    font-weight: bold;
+}
+/* no html allowed here */
