@@ -1,6 +1,8 @@
 body {color:#DB7647;background-color:#F6E7D8;}
 h1, h2 {color: #FFD13E;}
-
 a {color: #47B3B5;}
-nav {}
-.evenrow {background-color: grey;}
+nav {background-color: #EFFFFD;}
+nav a {color: #5902EC;}
+nav a:hover {background-color: #65C18C;}
+nav {padding: 10px;
+    margin-bottom: 30px;}
