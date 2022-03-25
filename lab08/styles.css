@@ -1,0 +1,19 @@
+body {color:#DB7647;background-color:#F6E7D8;}
+h1, h2 {color: #FFD13E;}
+a {color: #47B3B5;}
+nav {background-color: #EFFFFD;}
+nav a {color: #5902EC;}
+nav a:hover {background-color: #65C18C;}
+nav {padding: 10px;
+    margin-bottom: 30px;}
+
+span {float: right;}
+img {float: left; margin-bottom: 10px;}
+.clear {clear: both;}
+
+.row1, .row2 {display: flex;margin: 20px;}
+div {padding: 10px;}
+.row1 {flex: 2; background-color: #c4d8ee;border-radius: 1em;}
+.row2 {flex: 1; background-color: #c4d8ee;border-radius: 1em;}
+.googlemap {padding: 30px; margin-left: 30px;}
+.mycontact {padding: 30px; margin: 30px;}
