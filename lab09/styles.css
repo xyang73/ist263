@@ -26,7 +26,8 @@ div {padding: 10px;}
     text-align: center;
     margin: 30px;
 }
-.icons {display: flex; justify-content: space-around;}
+.icons {display: flex; 
+    justify-content: space-around;}
 .otherskills {
     flex: 2; 
     background-color: #c4d8ee;
