@@ -1,6 +1,6 @@
 body {color:#0080fffd; background-color:#F6E7D8;}
 h1, h2 {color: #bf00ff;}
-a {color: #C76150;}
+a {color: #0080fffd;}
 nav {background-color: #EFFFFD;}
 nav a {color: #5902EC;}
 nav a:hover {background-color: #65C18C;}
@@ -73,6 +73,6 @@ div {font-size: 1em;}
     background-color: #FFD13E;
     padding: 5px;
 }
-nav span {color: #C7506B;}
+nav span {color: #5902EC;}
 div h2 {color: #C7506B;}
 
