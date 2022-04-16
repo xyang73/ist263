@@ -1,6 +1,6 @@
-body {color:#DB7647;background-color:#F6E7D8;}
-h1, h2 {color: #FFD13E;}
-a {color: #47B3B5;}
+body {color:#0080ff; background-color:#F6E7D8;}
+h1, h2 {color: #bf00ff;}
+a {color: #C76150;}
 nav {background-color: #EFFFFD;}
 nav a {color: #5902EC;}
 nav a:hover {background-color: #65C18C;}
@@ -13,8 +13,8 @@ img {float: left; margin-bottom: 10px;}
 
 .row1, .row2 {display: flex;margin: 20px;}
 div {padding: 10px;}
-.row1 {flex: 2; background-color: #c4d8ee;border-radius: 1em;}
-.row2 {flex: 1; background-color: #c4d8ee;border-radius: 1em;}
+.row1 {flex: 2; background-color: #97C750;border-radius: 1em;}
+.row2 {flex: 1; background-color: #97C750;border-radius: 1em;}
 .googlemap {padding: 30px; margin-left: 30px;}
 .mycontact {padding: 30px; margin: 30px;}
 
@@ -30,7 +30,7 @@ div {padding: 10px;}
     justify-content: space-around;}
 .otherskills {
     flex: 2; 
-    background-color: #c4d8ee;
+    background-color: #97C750;
     border-radius: 1em;
     padding: 20px ;
 }
@@ -72,3 +72,4 @@ div {font-size: 1em;}
     background-color: #FFD13E;
     padding: 5px;
 }
+nav span {color: #ff8000;}
