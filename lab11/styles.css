@@ -1,0 +1,74 @@
+body {color:#DB7647;background-color:#F6E7D8;}
+h1, h2 {color: #FFD13E;}
+a {color: #47B3B5;}
+nav {background-color: #EFFFFD;}
+nav a {color: #5902EC;}
+nav a:hover {background-color: #65C18C;}
+nav {padding: 10px;
+    margin-bottom: 30px;}
+
+.quote {float: right;}
+img {float: left; margin-bottom: 10px;}
+.clear {clear: both;}
+
+.row1, .row2 {display: flex;margin: 20px;}
+div {padding: 10px;}
+.row1 {flex: 2; background-color: #c4d8ee;border-radius: 1em;}
+.row2 {flex: 1; background-color: #c4d8ee;border-radius: 1em;}
+.googlemap {padding: 30px; margin-left: 30px;}
+.mycontact {padding: 30px; margin: 30px;}
+
+.centerheading {
+    display: flex;
+    justify-content:center;
+}
+.intro {
+    text-align: center;
+    margin: 30px;
+}
+.icons {display: flex; 
+    justify-content: space-around;}
+.otherskills {
+    flex: 2; 
+    background-color: #c4d8ee;
+    border-radius: 1em;
+    padding: 20px ;
+}
+.flexbox2 {
+    display: flex;
+}
+.skill1 {
+    flex: 3;
+}
+.skill2 {
+    flex: 1;
+    margin-right: 20px;
+}
+.skill2text {
+    margin: 10px;
+}
+
+.iris {max-width: 100%; }
+.row2 {flex-wrap: wrap;}
+
+@media only screen and (max-width: 600px) {
+    nav a {
+        display: block;
+        width: 100%;
+        padding: 3px;
+    }
+    nav span {display: none;}
+    
+}
+
+p {font-size: 1em;}
+div {font-size: 1em;}
+#skip { 
+    position: absolute;
+    left: -999px;
+}
+#skip:focus {
+    left: 10px;
+    background-color: #FFD13E;
+    padding: 5px;
+}
