@@ -1,0 +1,77 @@
+/*h1, nav {
+    background-color: #ffef96;
+    padding: 20px;
+    margin: 10px;
+}
+*/
+.heading {
+    display: flex; 
+    background-color: #ffef96; 
+    padding: 20px; 
+    flex-wrap: wrap;}
+div h1 {
+    margin: auto;
+    width: 50%;
+    padding: 20px;}
+.col1 {
+    flex: 1; background-color: #d5f4e6;
+}
+.col2 {flex: 3;}
+.nav1 {
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1em;
+}
+.pjhome1 {
+    max-width: 100%; 
+    width:1500px;
+    height:700px;
+}
+
+.intro {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    font-size: 1.5em;
+}
+
+.huangguoshu, .fanjing {
+    display: flex;
+    margin: 20px;
+}
+
+.hgtext, .hgimg, .fjtext, .fjimg {
+    border: 1px solid #ada397; 
+    padding: 30px;
+}
+.hgtext p, .fjtext p {font-size: 1.3em;}
+.imghuangguo {max-width: 100%; }
+
+.imgfanjing {
+    max-width: 100%; 
+    width:1368px;
+    height:500px;
+}
+
+@media only screen and (max-width: 600px) {
+    .pjhome1 {width:800px;
+        height:300px;}
+    /*.col1 {font-size: 0.5em;}
+    .nav1 {font-size: 0.3em;}*/
+    div h1 {
+        margin: auto;
+        width: 60%;
+        padding: 20px;} 
+    .intro {
+        font-size: 1em;
+        margin: auto;
+        width: 70%;
+        padding: 10px;
+    }
+    .hgtext h2, .fjtext h2 {font-size: 1em;}
+    .hgtext p, .fjtext p {font-size: 0.8em;}
+    .imgfanjing {width:900px;
+        height:200px;}
+}
