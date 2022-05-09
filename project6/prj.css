@@ -4,6 +4,9 @@
     margin: 10px;
 }
 */
+body {background-color: #ffe6e6;}
+body p {color: #004d00;}
+
 .heading {
     display: flex; 
     background-color: #ffef96; 
@@ -24,6 +27,7 @@ div h1 {
     flex-wrap: wrap;
     font-size: 1em;
 }
+/*homepage*/
 .pjhome1 {
     max-width: 100%; 
     width:1500px;
@@ -55,11 +59,89 @@ div h1 {
     height:500px;
 }
 
+
+
+
+
+
+/*culture*/
+.pjculture1 {
+    max-width: 100%; 
+    width: 1500px;
+    height: 800px;
+}
+.cultureintro {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    font-size: 1.5em;
+}
+.xijiang {
+    max-width: 100%;
+    flex: 1;
+    width: 500px;
+    height: 333px;
+    margin: 30px;
+}
+.pjculture2 {
+    max-width: 100%;
+    flex: 1;
+    width: 500px;
+    height: auto;
+    margin: 30px;
+}
+.row1, .row2 {display: flex; justify-content: space-around;}
+.xjtext, .kltext {
+    flex: 1;
+    font-size: 1.2em;
+    margin: 40px;
+}
+.xjtext, .kltext, .cultureimg1, .cultureimg2 {
+    border: 2px solid #ada397; 
+    padding: 30px;
+}
+.f1, .f2, .f3 {
+    display: flex;
+    justify-content: space-between;
+}
+.ft1, .ft2, .ft3 {flex: 1;}
+.fe1, .fe2, .fe3 {flex:3;}
+.ft1, .ft2, .ft3, .fe1, .fe2, .fe3 {margin:30px;}
+
+/*cuisine*/
+.pg3cover {
+    max-width: 100%; 
+    width: 1500px;
+    height: 700px;
+}
+
+h2 {margin: 10px;}
+.i1, .i2, .i3 {font-size: 1em; margin: 10px; padding: 10px;}
+.pg3row1, .pg3row2 {display: flex; justify-content: space-around;}
+.laziji {
+    max-width: 100%; 
+    width: 300px;
+    height: 200px;
+}
+.siwawa {
+    max-width: 100%; 
+    width: 300px;
+    height: 200px;
+}
+.page33 {
+    max-width: 100%; 
+    width: 300px;
+    height: 200px;
+}
+.lzjtext, .stext, .ktext {flex:1; padding: 10px; margin: 10px;}
+
+
 @media only screen and (max-width: 600px) {
     .pjhome1 {width:800px;
         height:300px;}
     /*.col1 {font-size: 0.5em;}
     .nav1 {font-size: 0.3em;}*/
+       /*nav*/
     div h1 {
         margin: auto;
         width: 60%;
@@ -70,8 +152,50 @@ div h1 {
         width: 70%;
         padding: 10px;
     }
+    .col1 {
+        font-size: 0.5em; 
+        margin: auto;
+        width: 40%;
+        padding: 5px;
+    }
+    .nav1 {display: block; float: right;}
+ 
+    /*
     .hgtext h2, .fjtext h2 {font-size: 1em;}
     .hgtext p, .fjtext p {font-size: 0.8em;}
     .imgfanjing {width:900px;
         height:200px;}
+*/
+/*homepage*/
+    .huangguoshu, .fanjing {
+        display: block;
+        margin: 5px;
+    }
+    .hgtext, .fjtext {font-size: 0.7em;}
+    .hgtext, .hgimg, .fjtext, .fjimg {
+        padding: 40px;
+    }
+/*culture*/
+    .pjculture1 {display: none;}
+    .cultureintro {
+        font-size: 1em;
+        margin: auto;
+        width: 70%;
+        padding: 10px;
+    }
+    .row1, .row2 {display: block;}
+
+    .f1, .f2, .f3 {display: block;}
+    .cultureimg1, .cultureimg2 {border: none;}
+    .xijiang {width: 600px; margin: 0%;}
+    .pjculture2 {width: 500px; margin: 0%;}
+    .xjtext, .kltext {margin: 0%;}
+
+    /*cuisine*/
+    .pg3cover {
+        width: 300px;
+        height: auto;
+    }
+    .pg3row1, .pg3row2 {display: block;}
 }
+
